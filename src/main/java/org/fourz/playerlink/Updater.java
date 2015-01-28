@@ -29,7 +29,7 @@
  * This class provides the means to safely and easily update a plugin, or check to see if it is updated using dev.bukkit.org
  */
 
-package com.justinwflory.playerlink;
+package org.fourz.playerlink;
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -515,7 +515,6 @@ public class Updater {
 
     private class UpdateRunnable implements Runnable {
 
-        @Override
         public void run() {
             if (Updater.this.url != null) {
                 // Obtain the results of the project's file feed

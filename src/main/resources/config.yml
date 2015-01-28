@@ -13,12 +13,16 @@
 
 auto-update: true
 server-name: A Minecraft Server
+repeat-wait: 900
 website:
   url: http://minecraft.net
   enable-broadcast: true
 vote:
   url: http://minecraft-server-list.com
   enable-broadcast: true
+donate:  
+  url: http://donate.example.com
+  enable-broadcast: true  
 forums:
   url: http://crystalcraftmc.com/forums
   enable-broadcast: true
@@ -28,7 +32,7 @@ shop:
 voice:
   url: http://mumble.info
   enable-broadcast: true
-dynmap:
+map:
   url: http://dev.bukkit.org/bukkit-plugins/dynmap
   enable-broadcast: true
 wiki:
@@ -56,6 +60,7 @@ link:
 last-used:
   website: []
   vote: []
+  donate: []  
   forums: []
   shop: []
   voice: []

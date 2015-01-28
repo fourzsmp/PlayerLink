@@ -1,8 +1,8 @@
 name: PlayerLink
 description: PlayerLink is a Bukkit plugin designed to keep your players informed about your server.
-author: jflory7
+author: jflory7, Derek Schrishuhn aka wizardofire
 website: http://dev.bukkit.org/bukkit-plugins/playerlink/
-main: com.justinwflory.playerlink.Main
+main: org.fourz.playerlink.Main
 version: 1.4
 
 commands:
@@ -19,22 +19,29 @@ commands:
       usage: /vote
       permission: playerlink.vote
       permission-message: You don't have <permission>
+   donate:
+      description: Shows the link to a donation site you set.
+      usage: /donate
+      permission: playerlink.donate
+      permission-message: You don't have <permission>      
    forums:
       description: Shows the link to a forum you set.
       usage: /forums
       permission: playerlink.forums
       permission-message: You don't have <permission>
    shop:
+      aliases: barter
       description: Shows the link to a server shop you set.
       usage: /shop
       permission: playerlink.shop
       permission-message: You don't have <permission>
    voice:
+      aliases: teamspeak
       description: Shows the IP to a voice server you set.
       usage: /voice
       permission: playerlink.voice
       permission-message: You don't have <permission>
-   map:
+   map:      
       description: Shows the link to a DynMap page you set.
       usage: /map
       permission: playerlink.dynmap

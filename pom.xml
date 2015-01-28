@@ -29,13 +29,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.justinwflory.playerlink</groupId>
+    <groupId>org.fourz.playerlink</groupId>
     <artifactId>PlayerLink</artifactId>
     <version>1.4</version>
 
     <profiles>
         <profile>
-            <id>com.justinwflory.playerlink</id>
+            <id>org.fourz.playerlink</id>
             <build>
                 <finalName>PlayerLink</finalName>
                 <directory>src/main/java/</directory>
