@@ -98,6 +98,7 @@ permissions:
             playerlink.shop: true
             playerlink.voice: true
             playerlink.dynmap: true
+            playerlink.donate: true            
             playerlink.wiki: true
             playerlink.facebook: true
             playerlink.twitter: true
@@ -115,6 +116,9 @@ permissions:
     playerlink.vote:
         description: Shows the link to a voting website you set.
         default: true
+    playerlink.donate:
+        description: Shows the link for a donation site you set.
+        default: true        
     playerlink.forums:
         description: Shows the link to a forum you set.
         default: true
